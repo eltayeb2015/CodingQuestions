@@ -26,3 +26,5 @@ replay_pid*
 =======
 /.metadata/
 >>>>>>> f168d93 (Initial commit)
+.classpath
+.project
