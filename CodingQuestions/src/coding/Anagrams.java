@@ -1,12 +1,25 @@
 package coding;
 
+import java.io.Console;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Anagrams {
 
 	public static void main(String[] args) {
+		
 		String s1 = "";
 		String s2 = "";
+		Scanner in = new Scanner(System.in);
+	
+	
+		System.out.println("Enter first string: ");
+		 s1 = in.nextLine();
+		 
+		System.out.println("Enter second string: ");
+		 s2 = in.nextLine();
+
+		
 		
 		HashMap<Character, Integer> map1 = getMap(s1);
 		HashMap<Character, Integer> map2 = getMap(s2);

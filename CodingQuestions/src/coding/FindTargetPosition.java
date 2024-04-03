@@ -16,8 +16,7 @@ public class FindTargetPosition {
 			}
 			
 			System.out.println(pos[0]+","+pos[1]);
-			
-			
+					
 			int res[] = getMax(arr, -1);
 			System.out.println(res[0] +" index is: "+res[1]);
 			
